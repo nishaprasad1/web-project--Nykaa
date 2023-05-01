@@ -1,0 +1,35 @@
+
+/* .container{
+    width: 1200px;
+    margin: auto;
+} */
+.row{
+    display: flex;
+}
+/* .col-xl-3 img{
+    width: 100%;
+    margin-top:10px;
+    margin-bottom: 5px;
+} */
+
+.logo{
+    border: solid red;
+}
+@media only screen and (max-width:575px)
+{
+
+    .logo
+    {
+        /* margin-top: 20px; */
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center !important;
+        /* border: solid; */
+    }
+    .top-menu
+    {
+        justify-content: center !important;
+    }
+
+
+}
